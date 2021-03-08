@@ -1,0 +1,201 @@
+body {
+  margin: 0;
+  /* use this to center the text in the entire site , only if it doesn't have a width set*/
+  text-align: center;
+
+  /* change the font style */
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  /* font i want, default font, another default font, font-family */
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  /* this will center everything inside it regardless */
+  /* possibly remove this */
+  margin: 0 auto;
+  font-family: 'Sacramento', cursive;
+  /* 90px is 562.5 percent */
+  font-size: 5.625rem;
+  font-family: 'Sacramento', cursive;
+  /* add a 50 px(or 2.6rem) margin to the top of the h1 */
+  margin-top: 50px auto 0 auto ;
+  /* auto in margin is to keep it centered */
+
+  /* set the colour of the h1 property */
+
+
+/* line height default is 1 */
+
+/* lets try to get the h1 to be on the top layer: */
+position: relative;
+z-index: 1;
+
+
+
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  /* set the font size to 40px using rem */
+  font-size: 2.5rem;
+  /* color: #ff75a0; */
+  color: #66BFBF;
+
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+a {
+  color: #11999E;
+}
+
+/* change the seperator , the horizontal line, into 3 or 5 dots: */
+hr {
+  width: 10%;
+  border-bottom: 0;
+  border-right: 0;
+  border-left: 0;
+  border-top:10px dotted #EAF6F6;
+  margin: 50px auto;
+}
+
+#hills {
+  width:1000px;
+  height: 500px;
+}
+
+/* both clouds are taken out of the flow of the html doucment */
+#cloud1 {
+  height: 100px;
+  width: 200px;
+  position: absolute;
+  right: 200px;
+  top: 20px;
+}
+
+#cloud2 {
+  height: 100px;
+  width: 200px;
+  position: absolute;
+  left: 150px;
+  top: 150px;
+}
+
+#profilePicture {
+  border-radius: 50%;
+  width: 15%;
+  margin-top: 50px;
+}
+
+.subtitle {
+  font-weight: normal;
+  line-height: 2;
+}
+
+
+.skillsPicture {
+  /* border-radius: 50%; */
+  width: 35%;
+
+/* set the float property to left so that the text in the div wraps around the image */
+float: left;
+/* add some margin on the right */
+margin-right: 30px;
+}
+
+.skillsPicture2 {
+  width: 35%;
+  float: right;
+  margin-left: 30px;
+}
+
+.skillsPicture3 {
+  width: 35%;
+  float: left;
+  margin-right: 30px;
+}
+
+
+.top-container {
+  background-color: #E4F9F5;
+  /* in order to set the position of something to absolute, it's parent container must have a position of relative */
+  position: relative;
+  /* give it some padding to push it all down just a little bit */
+  padding-top: 100px;
+
+}
+
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 2%;
+}
+.contact-me {
+  line-height: 2;
+}
+.copyright {
+  color: #EAF6F6;
+}
+
+.footer-link {
+  text-decoration: none;
+  margin: 2%;
+}
+
+.btn {
+   background: #11CDD4;
+   background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -webkit-gradient(to bottom, #11CDD4, #11999E);
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   border-radius: 10px;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-size: 20px;
+   font-weight: 100;
+   padding: 10px;
+   margin: 90px auto;
+   -webkit-box-shadow: 1px 1px 4px 0 #000000;
+   -moz-box-shadow: 1px 1px 4px 0 #000000;
+   box-shadow: 1px 1px 4px 0 #000000;
+   text-shadow: 1px 1px 10px #000000;
+   border: solid #11CDD4 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.btn:hover {
+   border: solid #30E3CB 1px;
+   background: #30E3CB;
+   background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -webkit-gradient(to bottom, #30E3CB, #2BC4AD);
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   border-radius: 10px;
+   text-decoration: none;
+}
+.skill-row {
+  /* make each skill row only 50% width */
+  width: 50%;
+  /* make each skill row centered in the page/screen */
+  margin: 100px auto;
+
+  /* make the skills text left-aligned */
+  text-align: left;
+
+  /* double the line height */
+  line-height: 2;
+
+
+}
